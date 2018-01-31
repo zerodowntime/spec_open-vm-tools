@@ -13,5 +13,5 @@ Building:
 #     -o <<output_rpm_dir>>
 
 git checkout open-vm-tools-1.2
-rpm-build.sh -s open-vm-tools.spec  -o $(pwd)/rpm
+rpm-build.sh -s open-vm-tools.spec --source $(pwd)  -o $(pwd)/rpm
 ```
